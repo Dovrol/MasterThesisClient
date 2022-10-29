@@ -5,15 +5,15 @@ This console app connects to [MasterThesis](https://github.com/Dovrol/MasterThes
 > Testing means executing same operation 10 times and saving collected data.  
 
 ## How to run:
-Download this repository and execute dotnet run *[operation]*[^1] *[output_result_path]*
+Download this repository and execute dotnet run *[operation]* *[output_result_path]*
 
-[^1]: Supported operations are listed [here](#operations) 
+*[operation]*: Supported operations are listed below
 
-## Output
+#### Output
 App is saving CSV file with results in specified *[output_result_path]*
 
 
-## Supported oparations: {#operations}
+## Supported oparations:
 * create
 * update
 * delete
